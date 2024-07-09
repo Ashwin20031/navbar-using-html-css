@@ -1,0 +1,42 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+
+}
+
+body{
+    background-color:#222222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: rgb(255, 255, 255);
+    z-index: 9999;
+}
+
+nav, nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    cursor: pointer;
+}
+
+li{
+    list-style: none;
+    padding-bottom: 0.5rem;
+
+}
+
+li:hover{
+    border-bottom: 4px solid rgb(12, 218, 8);
+
+}
